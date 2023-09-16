@@ -44,7 +44,7 @@ function concatenateArray() {
 
 // 5. Average Age
 function averageAge() {
-  const sum=0;
+ let sum=0;
   data.map(person=>
     {
       sum+=person.age;
